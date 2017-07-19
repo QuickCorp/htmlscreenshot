@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Test htmlscreenshot</title>
+  <meta name="description" content=" Takes a complex screenshot from any HTML Element and return it as a canvas element" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="htmlscreenshot.js"></script>
+
+  <script>
+  function scr(){
+    document.body.toPNG(
+      function (){
+        document.getElementById('downloadSCR').src=document.body.dataIMG;
+      }
+    );
+  }
+  </script>
+
+</head>
+<body>
+  <div class="container" >
+
+    <h1>title 1</h1>
+    <h2>title 2</h2>
+    <h3>title 3</h3>
+
+    <button onclick="scr()">TAKE SCREENSHOT OF BODY</button>
+
+    <img id="downloadSCR" src="" width="400" height="400"/>
+
+  </div>
+</body>
+</html>

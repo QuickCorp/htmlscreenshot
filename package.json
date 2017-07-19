@@ -1,0 +1,22 @@
+{
+  "name": "htmlscreenshot",
+  "version": "1.0.1a",
+  "description": "Takes a complex screenshot from any HTML Element and return it as a canvas element",
+  "main": "htmlscreenshot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "screenshot",
+    "angular",
+    "html",
+    "html5",
+    "canvas",
+    "image",
+    "img",
+    "jpg",
+    "png"
+  ],
+  "author": "Jean Machuca <correojean@gmail.com>",
+  "license": "ISC"
+}
